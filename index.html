@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parnavi WebWorks</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    background:#0f172a;
+    z-index:1000;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.hero span{
+    color:#38bdf8;
+}
+
+.tagline{
+    color:#38bdf8;
+    margin-bottom:15px;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.hero p{
+    max-width:700px;
+    margin-bottom:25px;
+    color:#cbd5e1;
+}
+
+.btn{
+    padding:12px 28px;
+    background:#38bdf8;
+    color:#000;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    font-size:35px;
+    margin-bottom:25px;
+    color:#38bdf8;
+}
+
+.about p{
+    max-width:800px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.skill:hover{
+    transform:translateY(-5px);
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.project{
+    background:#1e293b;
+    padding:25px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.project:hover{
+    transform:translateY(-5px);
+}
+
+.project h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#94a3b8;
+    border-top:1px solid #1e293b;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">Parnavi WebWorks</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<p class="tagline">CODE • DESIGN • CREATE</p>
+
+<h1>Hi, I'm <span>Parnavi</span></h1>
+
+<p>
+Building modern websites, creating impactful designs, and crafting engaging visual content through creativity and technology.
+</p>
+
+<a href="#projects" class="btn">View My Work</a>
+</section>
+
+<section id="about" class="about">
+<h2>About Me</h2>
+
+<p>
+Hi, I'm Parnavi, the creator of Parnavi WebWorks. I specialize in web development, creative design, and video editing. I enjoy transforming ideas into modern digital experiences that are clean, responsive, and visually engaging. Currently expanding my skills through personal projects and freelance opportunities while continuously learning new technologies.
+</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="skills">
+<div class="skill">💻 Web Development</div>
+<div class="skill">🎨 Design</div>
+<div class="skill">🎬 Video Editing</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>AI Resume Intelligence System</h3>
+<p>
+An AI-powered resume screening platform using semantic matching technology to compare resumes with job descriptions and improve hiring efficiency.
+</p>
+</div>
+
+<div class="project">
+<h3>Creative Portfolio Platform</h3>
+<p>
+A modern portfolio website designed to showcase web development, design, and editing projects with an interactive user experience.
+</p>
+</div>
+
+<div class="project">
+<h3>Freelance Client Dashboard</h3>
+<p>
+🚀 Coming Soon<br>
+A project management dashboard for handling client requests, project tracking, and communication.
+</p>
+</div>
+
+<div class="project">
+<h3>Content Creator Toolkit</h3>
+<p>
+✨ Coming Soon<br>
+A collection of tools and resources for creators, designers, and video editors.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact</h2>
+
+<p>📧 parnavipimple@gmail.com</p>
+<p>💻 GitHub: Parnavi0320</p>
+<p>🌐 Parnavi WebWorks</p>
+
+</section>
+
+<footer>
+© 2026 Parnavi WebWorks | Designed & Developed by Parnavi
+</footer>
+
+</body>
+</html>
+```
+
